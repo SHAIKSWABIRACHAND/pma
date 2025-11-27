@@ -442,7 +442,6 @@ def owners_list():
 
     return jsonify({"success": True, "owners": owners})
 
-
 # -------------------- GET OWNER IMAGE ----------------
 @app.route('/owner_image/<int:owner_code>/<field>')
 def owner_image(owner_code, field):
