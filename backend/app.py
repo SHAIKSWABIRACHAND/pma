@@ -21,7 +21,7 @@ def get_project_db():
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="ashu",
+            password="root",
             database="project"
         )
         if conn.is_connected():
@@ -36,7 +36,7 @@ def get_owners_db():
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="ashu",
+            password="root",
             database="owners"
         )
         if conn.is_connected():

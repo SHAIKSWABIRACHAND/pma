@@ -1,7 +1,4 @@
-# Node modules
-frontend/node_modules/
-backend/node_modules/
-
-# Build cache
-frontend/.cache/
-frontend/node_modules/.cache/
+*node_modules/
+*.env
+*venv/
+*.venv/

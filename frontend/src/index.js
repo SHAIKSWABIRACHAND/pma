@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client"; // ✅ correct
 import App from "./App.jsx";
 import "./pages/style.css";
-import "./pages/Home.css"
-import "./pages/index.jsx"
+import "./pages/Home.css";
+ 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
